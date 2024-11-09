@@ -1,2 +1,1 @@
-# rsschool-cv
-CV created using markdown
+https://SAMask127node.github.io/rsschool-cv/cv
