@@ -38,7 +38,7 @@
 ---
 
 6. **Experience**  
-- **Software Developer**  
+    - **Software Developer**  
      **Ztr**  
      *Almaty, Kazakhstan*  
      **2020 – Present**
@@ -52,3 +52,22 @@
      - **Course:** [Udemy - React and Typescript: Build a Portfolio Project](https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/learn/lecture/24186294?start=0#overview)  
      - Developed multiple projects, including a Markdown app and a personal blog, using Typescript, React, Redux .
      - Strengthened front-end development skills and applied responsive design principles.
+
+---
+
+7. **Education**  
+   - **PhD of applied mathematics**  
+     *Polytechnic university of Valencia*  
+     Valencia, Spain  
+     **2007 - 2011**
+
+   - **Courses & Certifications**  
+     - React and Typescript: Build a Portfolio Project - Udemy  
+     - Specialization in Data Scientist - Skillfactory  
+     - JavaScript Algorithms and Data Structures - freeCodeCamp  
+
+---
+
+8. **English**  
+   - **Proficiency Level:** Upper Intermediate (Toefl)  
+   - **Practice:** Regularly attend English-speaking meetups and participate in online discussions. Frequently read technical documentation and industry articles in English to stay up-to-date with tech trends.
