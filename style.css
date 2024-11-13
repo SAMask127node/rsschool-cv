@@ -1,0 +1,57 @@
+  body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 650px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size :16px;
+    font-weight:bold;
+  }
+  
+  header p a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  h2 {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  .project a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .experience h3, .education p {
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 5px;
+  }
