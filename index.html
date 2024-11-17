@@ -1,62 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adil Askar - CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-          <h1>Jane Doe</h1>
-          <p>Email: SAMask127node@gmail.com | Phone: (701) 111-9955</p>
-          <p><a href="https://linkedin.com/in/adilaskar">LinkedIn</a> | <a href="https://github.com/SAMask127node">GitHub</a> | Almaty, Kazakhstan</p>
-        </header>
-        <section class="summary">
-          <h2>Summary</h2>
-          <p>Aspiring Junior Developer with a passion for continuous learning and a strong foundation in web development. Experienced in creating automation-focused web applications using .NET and Vue.js.</p>
-        </section>
-        <section class="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li><strong>Programming Languages:</strong> C#, JavaScript, Java, Python, HTML, CSS, latex</li>
-            <li><strong>Frameworks and Libraries:</strong> .net core, VueJS, React, Node.js, Spring</li>
-            <li><strong>Methodologies:</strong> Agile, Kanban</li>
-            <li><strong>Version Control:</strong> TFS, Git, GitHub, Gitlab</li>
-            <li><strong>Tools:</strong> Visual Studio Code, Visual Studio 2022,  IntelliJQDEA, Docker, Postman</li>
-          </ul>
-        </section>
-        <section class="projects">
-          <h2>Code Examples</h2>
-          <div class="project">
-            <h3>To-Do List Application</h3>
-            <p>A simple to-do list app built with JavaScript and Vue.js.</p>
-            <a href="https://github.com/SAMask127node/todo-list">Source Code</a>
-          </div>
-          <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>A personal portfolio website built with HTML, CSS, and JavaScript.</p>
-            <a href="https://github.com/SAMask127node/portfolio-website">Source Code</a>
-          </div>
-        </section>
-        <section class="experience">
-          <h2>Experience</h2>
-          <h3>Software Developer - Ztr</h3>
-          <p>Developed web applications for automating internal services using .NET and Vue.js, enhancing efficiency across departments.</p>
-        </section>
-        <section class="education">
-          <h2>Education</h2>
-          <p><strong>PhD of applied mathematics</strong> - Polytechnic university of Valencia, Valencia, Spain</p>
-          <ul>
-            <li>React and Typescript: Build a Portfolio Project</li>
-            <li>Specialization in Data Scientist - Skillfactory</li>
-            <li>JavaScript Algorithms and Data Structures - freeCodeCamp</li>
-          </ul>
-        </section>
-        <section class="language">
-          <h2>English</h2>
-          <p>Intermediate proficiency; completed a 6-month English course focusing on technical vocabulary.</p>
-        </section>
-      </div>
+  <header>
+    <img src="MyAvatar.jpg" alt="Adil Askar Avatar" class="avatar">
+    <h1>Adil Askar</h1>
+    <nav>
+      <ul>
+        <li><a href="#contact">Contacts</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#english">English</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <ul>
+        <li><strong>Email:</strong> SAMask127node@gmail.com </li>
+        <li><strong>Phone:</strong> (701) 111-9955</li>
+      </ul>
+    </section>
+    <section id="summary">
+      <h2>A brief self-introduction</h2>
+      <p>Aspiring Junior Developer with a passion for continuous learning and a strong foundation in web development. Experienced in creating automation-focused web applications using .NET and Vue.js</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> C#, JavaScript, Java, Python, HTML, CSS, latex</li>
+        <li><strong>Frameworks and Libraries:</strong> .net core, VueJS, React, Node.js, Spring</li>
+        <li><strong>Methodologies:</strong> Agile, Kanban</li>
+        <li><strong>Version Control:</strong> TFS, Git, GitHub, Gitlab</li>
+        <li><strong>Tools:</strong> Visual Studio Code, Visual Studio 2022,  IntelliJQDEA, Docker, Postman</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>A code example</h2>
+      <ul>
+        <li>
+          <strong>Multiply Function.</strong>
+          <p>A simple JavaScript function to multiply two numbers:</p>
+          <pre><code>
+            function multiply(a, b) {
+              return a * b;
+            }
+          </code></pre>
+        </li>
+      </ul>
+    </section>
+    <section id="experience">
+      <h2>A list of completed educational projects</h2>
+      <ul>
+        <li><strong>A CV project:</strong> <a href="https://github.com/SAMask127node/rsschool-cv/blob/rsschool-cv-html">A simple CV-html project code</a></li>
+      </ul>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Bachelor of Science in Computer Science:</strong> University of Technology, City, Country (2018 - 2022)</li>
+        <li>Complete Web Development Bootcamp - Udemy</li>
+        <li>Python for Everybody - Coursera</li>
+        <li>JavaScript Algorithms and Data Structures - freeCodeCamp</li>
+      </ul>
+    </section>
+    <section id="english">
+      <h2>English</h2>
+      <p>Upper-Intermediate proficiency</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Adil Askar | 
+      <a href="https://github.com/SAMask127node">GitHub</a> | 
+      <a href="https://rs.school/courses/javascript">
+        <img src="rs-school-logo.svg" alt="RS School Logo" class="course-logo">
+        RS School FE
+      </a>
+    </p>
+  </footer>
 </body>
 </html>
