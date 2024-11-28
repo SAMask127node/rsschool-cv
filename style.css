@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  height: 150px;
+}
+
+.course-logo {
+  width: 60px;
+}
+  
